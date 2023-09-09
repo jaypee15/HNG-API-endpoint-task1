@@ -6,7 +6,7 @@ import pytz
 
 class GetInfo(APIView):
 
-    def get(self, request):
+    def get(self, request, format=None):
         # get the query parametres from the url
         slack_name = request.query_params.get("slack_name")
         track = request.query_params.get("track")
