@@ -18,8 +18,8 @@ class GetInfo(APIView):
         current_utc_time = datetime.now(pytz.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
         # GitHub URL for the file being run and the full source code
-        github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"
-        github_repo_url = "https://github.com/username/repo"
+        github_file_url = "https://github.com/jaypee15/HNG-API-endpoint-task1/blob/main/apis/views.py"
+        github_repo_url = "https://github.com/jaypee15/HNG-API-endpoint-task1"
 
         # JSON response
         response_data = {
